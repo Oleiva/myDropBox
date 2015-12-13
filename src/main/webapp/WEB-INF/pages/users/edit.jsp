@@ -1,4 +1,4 @@
-<%@ page import="me.box.users.authentication.support.Authorities" %>
+<%@ page import="io.github.oleiva.myDropBox.users.authentication.support.Authorities" %>
 <%@ include file="/WEB-INF/pages/partials/taglibs.jsp" %>
 
 <html>

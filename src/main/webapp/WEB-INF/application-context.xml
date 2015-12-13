@@ -12,7 +12,7 @@
 
 
     <context:annotation-config/>
-    <context:component-scan base-package="me.box"/>
+    <context:component-scan base-package="io.github.oleiva.myDropBox"/>
     <mvc:annotation-driven/>
 
     <bean id="multipartResolver"
@@ -29,7 +29,7 @@
     <mvc:interceptors>
         <mvc:interceptor>
             <mvc:mapping path="/**"/>
-            <bean class="me.box.users.authentication.support.listeners.KeywordInterceptor">
+            <bean class="io.github.oleiva.myDropBox.users.authentication.support.listeners.KeywordInterceptor">
             </bean>
         </mvc:interceptor>
     </mvc:interceptors>

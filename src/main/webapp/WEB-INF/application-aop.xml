@@ -8,6 +8,6 @@
 
     <aop:aspectj-autoproxy/>
 
-    <bean id="logAspect" class="me.box.support.LoggingAspect"/>
+    <bean id="logAspect" class="io.github.oleiva.myDropBox.support.LoggingAspect"/>
 
 </beans>

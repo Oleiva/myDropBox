@@ -38,7 +38,7 @@
     <beans:bean id="passwordEncoder" class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"/>
 
     <beans:bean id="authenticationFailureHandler"
-                class="me.box.users.authentication.support.listeners.LoginFailureEventHandler">
+                class="io.github.oleiva.myDropBox.users.authentication.support.listeners.LoginFailureEventHandler">
         <beans:property name="exceptionMappings">
             <beans:props>
                 <beans:prop key="org.springframework.security.authentication.BadCredentialsException">
