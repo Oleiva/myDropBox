@@ -1,0 +1,6 @@
+*.class
+target/
+app/Bawl.iml
+desktop.ini
+/target
+.idea/*
