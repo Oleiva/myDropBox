@@ -1,6 +1,7 @@
-package io.github.oleiva.myDropBox.users;
+package io.github.oleiva.myDropBox.controllers;
 
-import io.github.oleiva.myDropBox.support.UploadableController;
+import io.github.oleiva.myDropBox.users.UserService;
+import io.github.oleiva.myDropBox.entity.UsersEntity;
 import io.github.oleiva.myDropBox.users.support.model.UserAddForm;
 import io.github.oleiva.myDropBox.users.support.model.UserEditForm;
 import io.github.oleiva.myDropBox.users.support.model.UserListView;

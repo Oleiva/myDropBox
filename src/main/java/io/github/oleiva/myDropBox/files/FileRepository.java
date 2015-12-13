@@ -1,5 +1,6 @@
 package io.github.oleiva.myDropBox.files;
 
+import io.github.oleiva.myDropBox.entity.FilesEntity;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;

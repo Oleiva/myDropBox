@@ -1,6 +1,5 @@
-package io.github.oleiva.myDropBox.users.authentication;
+package io.github.oleiva.myDropBox.entity;
 
-import io.github.oleiva.myDropBox.entity.UsersEntity;
 import org.hibernate.annotations.NotFound;
 import org.hibernate.annotations.NotFoundAction;
 

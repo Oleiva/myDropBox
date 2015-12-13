@@ -1,4 +1,4 @@
-package io.github.oleiva.myDropBox.users.authentication;
+package io.github.oleiva.myDropBox.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;

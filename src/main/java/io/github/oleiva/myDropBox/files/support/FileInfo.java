@@ -1,6 +1,6 @@
 package io.github.oleiva.myDropBox.files.support;
 
-import io.github.oleiva.myDropBox.files.FilesEntity;
+import io.github.oleiva.myDropBox.entity.FilesEntity;
 
 /**
  * Created by Ivasoft on 9/27/14.

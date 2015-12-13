@@ -1,6 +1,6 @@
 package io.github.oleiva.myDropBox.users.authentication;
 
-import io.github.oleiva.myDropBox.users.UsersEntity;
+import io.github.oleiva.myDropBox.entity.UsersEntity;
 import io.github.oleiva.myDropBox.users.authentication.support.Authorities;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

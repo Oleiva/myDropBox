@@ -1,6 +1,6 @@
 package io.github.oleiva.myDropBox.files.support;
 
-import io.github.oleiva.myDropBox.files.FilesEntity;
+import io.github.oleiva.myDropBox.entity.FilesEntity;
 import org.apache.commons.io.IOUtils;
 import org.apache.tika.Tika;
 import org.springframework.stereotype.Component;

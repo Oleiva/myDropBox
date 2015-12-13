@@ -1,5 +1,6 @@
 package io.github.oleiva.myDropBox.users;
 
+import io.github.oleiva.myDropBox.entity.UsersEntity;
 import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

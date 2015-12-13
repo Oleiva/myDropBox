@@ -1,10 +1,11 @@
 package io.github.oleiva.myDropBox.files;
 
+import io.github.oleiva.myDropBox.entity.FilesEntity;
 import io.github.oleiva.myDropBox.files.support.FileInfo;
 import io.github.oleiva.myDropBox.files.support.FileSaver;
 import io.github.oleiva.myDropBox.files.support.model.FileDownloadInfo;
 import io.github.oleiva.myDropBox.users.UserRepository;
-import io.github.oleiva.myDropBox.users.UsersEntity;
+import io.github.oleiva.myDropBox.entity.UsersEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

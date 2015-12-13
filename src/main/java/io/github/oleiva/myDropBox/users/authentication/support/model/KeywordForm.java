@@ -1,6 +1,6 @@
 package io.github.oleiva.myDropBox.users.authentication.support.model;
 
-import io.github.oleiva.myDropBox.users.UsersEntity;
+import io.github.oleiva.myDropBox.entity.UsersEntity;
 
 /**
  * Created by Ivasoft on 9/28/14.

@@ -1,4 +1,4 @@
-package io.github.oleiva.myDropBox.support;
+package io.github.oleiva.myDropBox.controllers;
 
 import io.github.oleiva.myDropBox.files.support.model.FileUploadForm;
 import org.springframework.web.bind.annotation.ModelAttribute;

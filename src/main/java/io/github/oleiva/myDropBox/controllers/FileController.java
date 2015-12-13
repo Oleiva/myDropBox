@@ -1,12 +1,13 @@
-package io.github.oleiva.myDropBox.files;
+package io.github.oleiva.myDropBox.controllers;
 
+import io.github.oleiva.myDropBox.files.FileService;
+import io.github.oleiva.myDropBox.entity.FilesEntity;
 import io.github.oleiva.myDropBox.files.support.model.*;
 import io.github.oleiva.myDropBox.files.support.listeners.FileRequestListener;
 import io.github.oleiva.myDropBox.files.support.model.adapter.FileEditFormAdapter;
 import io.github.oleiva.myDropBox.files.support.model.adapter.FileShareEditFormAdapter;
-import io.github.oleiva.myDropBox.support.UploadableController;
 import io.github.oleiva.myDropBox.users.UserService;
-import io.github.oleiva.myDropBox.users.UsersEntity;
+import io.github.oleiva.myDropBox.entity.UsersEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Controller;

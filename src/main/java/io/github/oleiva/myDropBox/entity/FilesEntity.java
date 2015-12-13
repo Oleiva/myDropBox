@@ -1,6 +1,5 @@
-package io.github.oleiva.myDropBox.files;
+package io.github.oleiva.myDropBox.entity;
 
-import io.github.oleiva.myDropBox.users.UsersEntity;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 
 import javax.persistence.*;

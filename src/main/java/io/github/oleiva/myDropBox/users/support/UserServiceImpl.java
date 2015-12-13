@@ -3,7 +3,7 @@ package io.github.oleiva.myDropBox.users.support;
 import io.github.oleiva.myDropBox.users.UserService;
 import io.github.oleiva.myDropBox.users.authentication.UserLoginAttemptsService;
 import io.github.oleiva.myDropBox.users.UserRepository;
-import io.github.oleiva.myDropBox.users.UsersEntity;
+import io.github.oleiva.myDropBox.entity.UsersEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

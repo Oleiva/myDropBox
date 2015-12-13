@@ -1,6 +1,6 @@
 package io.github.oleiva.myDropBox.files.support.model;
 
-import io.github.oleiva.myDropBox.users.UsersEntity;
+import io.github.oleiva.myDropBox.entity.UsersEntity;
 
 import java.io.Serializable;
 import java.util.ArrayList;

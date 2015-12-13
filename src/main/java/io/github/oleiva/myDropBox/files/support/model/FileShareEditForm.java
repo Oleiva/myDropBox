@@ -1,6 +1,6 @@
 package io.github.oleiva.myDropBox.files.support.model;
 
-import io.github.oleiva.myDropBox.files.FilesEntity;
+import io.github.oleiva.myDropBox.entity.FilesEntity;
 
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;

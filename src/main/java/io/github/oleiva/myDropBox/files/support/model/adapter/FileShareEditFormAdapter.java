@@ -1,6 +1,6 @@
 package io.github.oleiva.myDropBox.files.support.model.adapter;
 
-import io.github.oleiva.myDropBox.files.FilesEntity;
+import io.github.oleiva.myDropBox.entity.FilesEntity;
 import io.github.oleiva.myDropBox.files.support.model.FileShareEditForm;
 import org.springframework.stereotype.Service;
 

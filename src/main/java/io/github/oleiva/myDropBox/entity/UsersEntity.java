@@ -1,4 +1,4 @@
-package io.github.oleiva.myDropBox.users;
+package io.github.oleiva.myDropBox.entity;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 

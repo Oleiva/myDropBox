@@ -1,6 +1,6 @@
 package io.github.oleiva.myDropBox.users.support.model;
 
-import io.github.oleiva.myDropBox.users.UsersEntity;
+import io.github.oleiva.myDropBox.entity.UsersEntity;
 import org.hibernate.validator.constraints.Email;
 import org.hibernate.validator.constraints.Range;
 

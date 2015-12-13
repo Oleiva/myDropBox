@@ -11,7 +11,7 @@ public class LoggingAspect {
 
   private static final Logger logger = Logger.getLogger(LoggingAspect.class);
 
-  @Before("execution(* io.github.oleiva.myDropBox.files.FileController.view(..))")
+  @Before("execution(* io.github.oleiva.myDropBox.controllers.FileController.view(..))")
   public void logViewRequest(JoinPoint joinPoint) {
     Object[] arguments = joinPoint.getArgs();
     Long id = (Long) arguments[0];
@@ -19,7 +19,7 @@ public class LoggingAspect {
     logger.error(String.format("[user %s] requested to view [file %d]", username, id));
   }
 
-  @Before("execution(* io.github.oleiva.myDropBox.files.FileController.edit(..))")
+  @Before("execution(* io.github.oleiva.myDropBox.controllers.FileController.edit(..))")
   public void logEditRequest(JoinPoint joinPoint) {
     Object[] arguments = joinPoint.getArgs();
     Long id = (Long) arguments[0];
@@ -27,7 +27,7 @@ public class LoggingAspect {
     logger.error(String.format("[user %s] requested editing of [file %d]", username, id));
   }
 
-  @Before("execution(* io.github.oleiva.myDropBox.files.FileController.remove(..))")
+  @Before("execution(* io.github.oleiva.myDropBox.controllers.FileController.remove(..))")
   public void logRemoveRequest(JoinPoint joinPoint) {
     Object[] arguments = joinPoint.getArgs();
     Long id = (Long) arguments[0];

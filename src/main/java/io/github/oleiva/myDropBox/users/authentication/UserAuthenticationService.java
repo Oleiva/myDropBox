@@ -1,7 +1,7 @@
 package io.github.oleiva.myDropBox.users.authentication;
 
 import io.github.oleiva.myDropBox.users.UserService;
-import io.github.oleiva.myDropBox.users.UsersEntity;
+import io.github.oleiva.myDropBox.entity.UsersEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

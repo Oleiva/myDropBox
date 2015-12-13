@@ -1,6 +1,6 @@
 package io.github.oleiva.myDropBox.users.support.model.adapter;
 
-import io.github.oleiva.myDropBox.users.UsersEntity;
+import io.github.oleiva.myDropBox.entity.UsersEntity;
 import io.github.oleiva.myDropBox.users.authentication.support.Authorities;
 import io.github.oleiva.myDropBox.users.support.model.UserAddForm;
 import org.springframework.security.crypto.bcrypt.BCrypt;

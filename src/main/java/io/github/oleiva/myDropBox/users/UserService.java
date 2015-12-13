@@ -1,5 +1,7 @@
 package io.github.oleiva.myDropBox.users;
 
+import io.github.oleiva.myDropBox.entity.UsersEntity;
+
 import java.io.Serializable;
 import java.util.Collection;
 
